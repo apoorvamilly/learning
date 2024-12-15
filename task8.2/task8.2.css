@@ -1,0 +1,29 @@
+.text_content{
+    display: none;
+}
+
+
+
+/* subtask2 */
+.like{
+    border: none;
+    background: none;
+}
+.like:hover{
+
+    cursor: pointer;
+}
+
+.like_symbol:hover{
+    color: red;
+}
+
+/* subtask3 */
+
+.ans{
+    display: none;
+}
+
+.qn:hover{
+    cursor: pointer;
+}
