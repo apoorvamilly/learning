@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="8.1.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="subtask1">
+      <div class="container">
+        <h2 style="color: red">Merry christmas</h2>
+        <div class="slider">
+          <div class="images">
+            <div id="img_1"><img src="assets/download.jpg" alt="" /></div>
+            <div id="img_2"><img src="assets/images (1).jpg" alt="" /></div>
+            <div id="img_3"><img src="assets/images (2).jpg" alt="" /></div>
+            <div id="img_4"><img src="assets/images.jpg" alt="" /></div>
+          </div>
+        </div>
+        <div class="navigation_button">
+          <div class="nav_left"><i class="fa-solid fa-caret-left"></i></div>
+          <div class="nav_right"><i class="fa-solid fa-caret-right"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="subtask2">
+      <div class="gallery_container">
+        <img
+          src="assets/harry1.jpg"
+          alt="galler_pic_1"
+          class="gal_images"
+          data-expand="assets/harry1.jpg"
+        />
+        <img
+          src="assets/harry2.jpg"
+          alt="galler_pic_2"
+          class="gal_images"
+          data-expand="assets/harry2.jpg"
+        />
+        <img
+          src="assets/harry3.jpg"
+          alt="galler_pic_3"
+          class="gal_images"
+          data-expand="assets/harry3.jpg"
+        />
+      </div>
+      <div class="modal" id="image_modal">
+        <span class="close">&times;</span>
+        <img class="full_image" alt="image_expanded" />
+      </div>
+    </div>
+  </body>
+  <script src="8.1.js"></script>
+</html>
