@@ -1,0 +1,21 @@
+/* light mode */
+
+.light-mode {
+    background-color:white
+}
+
+.light-mode .content{
+    color:black
+}
+
+.dark-mode {
+    background-color:black
+}
+
+.dark-mode .content{
+    color:white
+}
+
+button:hover{
+    cursor: pointer;
+}
